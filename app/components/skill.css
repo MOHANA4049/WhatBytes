@@ -1,0 +1,32 @@
+.skill-test {
+    /* Grid layout properties (already defined in your JavaScript) */
+  
+    /* Positioning for centered placement within sidebar */
+    position: absolute;
+    top: 15%;
+    left:22%;
+    /* transform: translate(-50%, -50%);  */
+    width: 600px; /* Adjust width as needed */
+    background-color: #fff; /* Optional background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1; /* Ensure it's layered above other elements */
+  }
+  .title-container {
+    display: flex; /* Arrange title and button horizontally */
+    justify-content: space-between; /* Align items at opposite ends */
+    align-items: center; /* Align vertically (optional) */
+  }
+  
+  .view-details {
+    /* Style the button as desired */
+    padding: 8px 16px; /* Adjust padding to your preference */
+    border: 1px solid #ccc; /* Add a border (optional) */
+    border-radius: 4px; /* Rounded corners (optional) */
+    background-color: #eee; /* Light background color (optional) */
+    cursor: pointer; /* Indicate interactivity on hover */
+    /* Make the button text bold (optional) */
+  }
+  
+  .view-details:hover {
+    background-color:blue; /* Change background color on hover (optional) */
+  }

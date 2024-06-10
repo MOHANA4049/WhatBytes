@@ -1,0 +1,45 @@
+.quick-statistics {
+    display: flex; 
+    align-items: center; 
+    margin: 0; 
+    padding: 25px; 
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    position: absolute;
+    top: 45%;
+    left:22%;
+        width: 600px;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        z-index: 1;
+  }
+  
+  .quick-statistics p {
+    margin: 0 8px; 
+  }
+  .quick-statistics {
+    display: flex;
+    align-items: center; 
+    margin: 0;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .quick-statistics p {
+    margin: 0;
+    padding: 0 8px;
+  }
+  
+  .quick-statistics p:after {
+    content: "|";
+    color: #ddd;
+    margin-left: 8px;
+  }
+  
+  .quick-statistics p:last-child:after {
+    display: none;
+  }
+  
+
+  
